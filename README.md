@@ -1,54 +1,43 @@
-# React + TypeScript + Vite
+# Sentence Construction Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Sentence Construction Tool** is an interactive web application built using **React**. It presents users with incomplete sentences and a set of word options to fill in the blanks. Users must place the correct words in the blanks to complete the sentences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This tool is already implemented on our website. To get a better understanding of the functionality, we recommend you test it out [here](#).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Interactive Sentence Completion**: Displays sentences with blank spaces for users to complete.
+- **Word Options**: Provides 4 word options that users can choose from to fill the blanks.
+- **Unselect Word**: Users can unselect a word by clicking on the filled blank.
+- **Timer**: A 30-second timer for each question that automatically navigates to the next question once the time expires.
+- **Next Button**: Enables the "Next" button only when all blanks are filled.
+- **Feedback Screen**: Displays:
+  - All correct and incorrect answers.
+  - The correct answers for any questions answered incorrectly.
+  - A score out of 10.
+- **Dashboard**: Users can access a dashboard to see their progress.
+- **Login/Logout**: The app includes a login/logout page to manage user authentication.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technical Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Frontend**: 
+  - React.js
+  - TypeScript 
+  - Tailwind CSS for styling
+  - shadcn/ui components
+  
+- **Deployment**: The app is deployed using [Vercel](https://vercel.com/).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Requirements
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Vite** for fast development setup.
+- **Responsive Design** to ensure the application is usable on various devices.
+- **GitHub** repository with proper documentation and version control.
+
+## Setup Instructions
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Melville19705/sentence.git
