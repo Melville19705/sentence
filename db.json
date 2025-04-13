@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "sentence": "The quick brown _ jumps over the lazy _.",
+      "options": [
+        "fox",
+        "dog",
+        "cat",
+        "rabbit"
+      ],
+      "correctAnswers": [
+        "fox",
+        "dog"
+      ]
+    },
+    {
+      "id": 2,
+      "sentence": "To _ or not to _, that is the question.",
+      "options": [
+        "be",
+        "see",
+        "do",
+        "try"
+      ],
+      "correctAnswers": [
+        "be",
+        "be"
+      ]
+    },
+    {
+      "id": 3,
+      "sentence": "An _ a day keeps the _ away.",
+      "options": [
+        "apple",
+        "doctor",
+        "orange",
+        "dentist"
+      ],
+      "correctAnswers": [
+        "apple",
+        "doctor"
+      ]
+    },
+    {
+      "id": 4,
+      "sentence": "All that _ is not _.",
+      "options": [
+        "glitters",
+        "gold",
+        "shines",
+        "valuable"
+      ],
+      "correctAnswers": [
+        "glitters",
+        "gold"
+      ]
+    },
+    {
+      "id": 5,
+      "sentence": "_ is the best _ of life.",
+      "options": [
+        "Learning",
+        "teacher",
+        "Experience",
+        "part"
+      ],
+      "correctAnswers": [
+        "Experience",
+        "teacher"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "email": "demo@example.com",
+      "password": "password123",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "04a2",
+      "username": "Hardik",
+      "email": "hardikpandey512@gmail.com",
+      "password": "1234",
+      "createdAt": "2025-04-12T10:58:28.352Z"
+    }
+  ],
+  "progress": [
+    {
+      "id": "9b70",
+      "userId": "04a2",
+      "lastQuestionIndex": 1,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:08:15.582Z"
+    },
+    {
+      "id": "62e8",
+      "userId": "04a2",
+      "lastQuestionIndex": 1,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:08:15.583Z"
+    },
+    {
+      "id": "5027",
+      "userId": "04a2",
+      "lastQuestionIndex": 2,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        },
+        {
+          "questionId": 2,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:09:03.576Z"
+    },
+    {
+      "id": "5d6b",
+      "userId": "04a2",
+      "lastQuestionIndex": 2,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        },
+        {
+          "questionId": 2,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:09:03.577Z"
+    },
+    {
+      "id": "6cd9",
+      "userId": "04a2",
+      "lastQuestionIndex": 2,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        },
+        {
+          "questionId": 2,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:12:01.570Z"
+    },
+    {
+      "id": "a490",
+      "userId": "04a2",
+      "lastQuestionIndex": 2,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "userAnswers": [],
+          "isCorrect": false
+        },
+        {
+          "questionId": 2,
+          "userAnswers": [],
+          "isCorrect": false
+        }
+      ],
+      "timestamp": "2025-04-12T11:12:01.571Z"
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": 1,
+      "userId": 1,
+      "score": 4,
+      "totalQuestions": 5,
+      "completedAt": "2023-01-02T00:00:00.000Z"
+    }
+  ]
+}
