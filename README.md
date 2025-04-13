@@ -4,7 +4,7 @@
 
 The **Sentence Construction Tool** is an interactive web application built using **React**. It presents users with incomplete sentences and a set of word options to fill in the blanks. Users must place the correct words in the blanks to complete the sentences.
 
-This tool is already implemented on our website. To get a better understanding of the functionality, we recommend you test it out [here](#).
+This tool is already implemented. To get a better understanding of the functionality, test it out [here](sentence-git-master-melville19705s-projects.vercel.app).
 
 ## Features
 
