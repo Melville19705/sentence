@@ -14,9 +14,10 @@ export const useQuestions = () => {
           throw new Error('Failed to fetch questions');
         }
         const data = await response.json();
-        setQuestions(data.questions);
+        console.log('Fetched data:', data); 
+        setQuestions(data.questions); 
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'An unknown error occurred');
+        setError(err instanceof Error ? err.message : 'Failed to load questions. Please try again later.');
       } finally {
         setLoading(false);
       }
