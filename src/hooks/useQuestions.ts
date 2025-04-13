@@ -14,7 +14,7 @@ export const useQuestions = () => {
           throw new Error('Failed to fetch questions');
         }
         const data = await response.json();
-        setQuestions(data);
+        setQuestions(data.questions);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An unknown error occurred');
       } finally {
